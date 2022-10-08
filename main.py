@@ -7,8 +7,6 @@ from sanitize_filename import sanitize
 import json
 
 def main():
-    YOUTUBE_API_KEY = os.getenv('YOUTUBE_API_KEY')
-
     while True:
         try:
             user_channel = input("Please enter a channel URL: ")
@@ -57,6 +55,7 @@ def main():
     print(f"All thumbnails scraped for {name}\n")
 
 while True:
+    YOUTUBE_API_KEY = "AIzaSyCad36TSu7JBCTpFuPCayL1LucyDZwmr2s"
     user_choice = input("1. Scrape Thumbnails 2. Exit: ")
     if user_choice == "1":
         main()
