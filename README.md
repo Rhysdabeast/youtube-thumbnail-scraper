@@ -18,8 +18,9 @@ In order to use this program you will need to get a Youtube API token.
 
 # Running the Scraper
 
-1. Put your Youtube API Key into the .env file. If you don't have a Youtube API Key use the steps above to get one.
-2. Run the scraper by using <code>python main.py</code>.
-3. Enter "1" to scrape thumbnails or "2" to exit the program.
-4. If "1" is entered you will be prompted to enter a valid Youtube channel URL like "https://www.youtube.com/c/F1".
-5. If a valid channel URL is entered then the scraper will create a folder named after the channel name and will start downloading the thumbnails. The filename format is <code>{title}.jpg</code>.
+1. You will first need to install the requirements in order to run the scraper. Run <code>pip install -r requirements.txt</code> to install the requirements.
+2. Put your Youtube API Key into the .env file. If you don't have a Youtube API Key use the steps above to get one.
+3. Run the scraper by using <code>python main.py</code>.
+4. Enter "1" to scrape thumbnails or "2" to exit the program.
+5. If "1" is entered you will be prompted to enter a valid Youtube channel URL like "https://www.youtube.com/c/F1".
+6. If a valid channel URL is entered then the scraper will create a folder named after the channel name and will start downloading the thumbnails. The filename format is <code>{title}.jpg</code>.
