@@ -55,7 +55,7 @@ def main():
     print(f"All thumbnails scraped for {name}\n")
 
 while True:
-    YOUTUBE_API_KEY = "AIzaSyCad36TSu7JBCTpFuPCayL1LucyDZwmr2s"
+    YOUTUBE_API_KEY = "YOUR KEY HERE"
     user_choice = input("1. Scrape Thumbnails 2. Exit: ")
     if user_choice == "1":
         main()
